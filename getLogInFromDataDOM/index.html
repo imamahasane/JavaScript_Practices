@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>JavaScript</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <h1>Log In Form</h1>
+    <form action="">
+      <div class="">
+        <label for="name">
+          Name:
+          <input type="text" id="name" name="name" required autofocus />
+        </label>
+      </div>
+
+      <div class="">
+        <label for="email">
+          email:
+          <input type="text" id="email" name="email" required />
+        </label>
+      </div>
+
+      <div class="">
+        <label for="password">
+          password:
+          <input
+            type="text"
+            id="password"
+            name="password"
+            required
+            minlength="6"
+            maxlength="12"
+          />
+        </label>
+      </div>
+
+      <div class="">
+        <input type="submit" value="signup" />
+      </div>
+    </form>
+
+    <script src="index.js"></script>
+  </body>
+</html>
