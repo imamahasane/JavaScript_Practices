@@ -1,0 +1,10 @@
+function helloUniverse() {
+	//complete your code
+	//Must return
+	let data = 'Hello Universe!! Welcome me to JS World!!!';
+	// return data;
+  console.log(helloUniverse());
+}
+
+// console.log(helloUniverse());
+helloUniverse()
