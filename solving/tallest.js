@@ -1,11 +1,14 @@
 function maxInArray(numbers) {
-	console.log(numbers);
+
+	let l = numbers[0];
 
 	for (let i = 0; i < numbers.length; i++) {
-		const index = i;
-		const valus = numbers[i];
-		console.log(index, valus);
+		const element = numbers[i];
+		if (element > l) {
+			l = element;
+		}
 	}
+	return l;
 }
 
 const heights = [111, 222, 120, 167, 137, 165, 178];
